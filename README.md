@@ -1,11 +1,6 @@
 # restful-booker-api-testing
 Collection Postman untuk pengujian API Restful-Booker dengan Newman
 
-Berikut README dalam format **Markdown** yang rapi dan langsung bisa kamu copy ke GitHub:  
-
----
-
-```md
 # 🏨 Restful Booker API Testing  
 
 ## 📌 Deskripsi  
@@ -59,12 +54,6 @@ Setelah dijalankan, laporan hasil pengujian akan tersedia dalam format **CLI out
 - **Postman** → Membuat dan menjalankan koleksi API  
 - **Newman** → Menjalankan pengujian secara otomatis  
 - **CSV Data** → Menggunakan data-driven testing untuk berbagai skenario  
-
-## 📜 Lisensi  
-Proyek ini bebas digunakan untuk keperluan belajar dan pengujian API.  
-
----
-```
 
 📌 **Cara Menggunakannya:**  
 1. **Salin kode di atas**  
