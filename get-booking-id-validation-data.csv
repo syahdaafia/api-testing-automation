@@ -1,0 +1,16 @@
+﻿firstName,lastName,checkIn,checkOut
+Sally,,,
+,Brown,,
+,,2013-02-23,
+,,,2014-10-23
+Sally,Brown,,
+,,,
+,,2013-02-23,2014-10-23
+Sally,,2013-02-23,
+,Brown,,2014-10-23
+Sally,Brown,2013-02-23,2014-10-23
+Syahda,Brown,2013-02-23,2014-10-23
+Sally,Afia,2013-02-23,2014-10-23
+Sally,Brown,2025-02-23,2014-10-23
+Sally,Brown,2013-02-23,2025-10-23
+Syahda,Afia,2025-02-23,2014-10-23
