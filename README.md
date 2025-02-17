@@ -1,23 +1,23 @@
 # restful-booker-api-testing
 _Collection_ Postman untuk pengujian API Restful-Booker dengan Newman
-link API contract: _ https://restful-booker.herokuapp.com/apidoc/index.html _
+link API contract: https://restful-booker.herokuapp.com/apidoc/index.html 
 
 # 🏨 Restful Booker API Testing  
 
 ## 📌 Deskripsi  
-_Repository_ ini berisi koleksi pengujian API untuk **Restful Booker**, menggunakan **Postman** dan dieksekusi dengan **Newman**. Pengujian mencakup validasi berbagai skenario termasuk request valid, validasi input login (create token) , serta pengambilan booking ID dengan berbagai kombinasi parameter.  
+_Repository_ ini berisi koleksi pengujian API untuk **Restful Booker**, menggunakan **Postman** dan dieksekusi dengan **Newman**. Pengujian mencakup validasi berbagai skenario termasuk request valid, validasi input login (_create_ token) , serta pengambilan booking ID dengan berbagai kombinasi parameter.  
 
 ## 📂 Struktur Koleksi  
 Koleksi **Restful-Booker Automation** memiliki tiga folder utama:  
 
 ### 1️⃣ Valid request  
-- Menguji seluruh flow API dari **create token, get booking, update (PUT & PATCH), hingga delete booking** dengan data valid.  
+- Menguji seluruh _flow_ API dari **create token, get booking, update (PUT & PATCH), hingga delete booking** dengan data valid.  
 
 ### 2️⃣ Create roken  
 - Menguji _endpoint_ `/auth` untuk **membuat token** dengan berbagai kombinasi input (valid & invalid).  
 
 ### 3️⃣ Get booking id
-- Menguji endpoint `/booking` untuk **mengambil Booking ID** berdasarkan kombinasi parameter seperti `firstname`, `lastname`, `checkin`, dan `checkout`.  
+- Menguji _endpoint_ `/booking` untuk **mengambil Booking ID** berdasarkan kombinasi parameter seperti `firstname`, `lastname`, `checkin`, dan `checkout` dengan berbagai kombinasi input (valid & invalid).  
 
 ---
 
@@ -48,17 +48,7 @@ newman run Restful-booker-collection.json --folder "Get booking id" -e restful-b
 
 ---
 
-## 📑 Hasil Pengujian  
-Setelah dijalankan, laporan hasil pengujian akan tersedia dalam format **CLI output atau HTML Report** sesuai dengan opsi yang digunakan.  
-
 ## 📌 Teknologi yang Digunakan  
 - **Postman** → Membuat dan menjalankan koleksi API  
 - **Newman** → Menjalankan pengujian secara otomatis  
-- **CSV Data** → Menggunakan data-driven testing untuk berbagai skenario  
-
-📌 **Cara Menggunakannya:**  
-1. **Salin kode di atas**  
-2. **Paste di file `README.md` pada repository GitHub-mu**  
-3. **Commit dan push ke GitHub**  
-
-README ini sudah lengkap, profesional, dan mudah dibaca! 🚀💡
+- **CSV Data** → Menggunakan _data-driven testing_ untuk berbagai skenario  
