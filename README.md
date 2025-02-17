@@ -1,21 +1,22 @@
 # restful-booker-api-testing
-Collection Postman untuk pengujian API Restful-Booker dengan Newman
+_Collection_ Postman untuk pengujian API Restful-Booker dengan Newman
+link API contract: _ https://restful-booker.herokuapp.com/apidoc/index.html _
 
 # 🏨 Restful Booker API Testing  
 
 ## 📌 Deskripsi  
-Repository ini berisi koleksi pengujian API untuk **Restful Booker**, menggunakan **Postman** dan dieksekusi dengan **Newman**. Pengujian mencakup validasi berbagai skenario termasuk request valid, validasi token, serta pengambilan booking ID dengan berbagai kombinasi parameter.  
+_Repository_ ini berisi koleksi pengujian API untuk **Restful Booker**, menggunakan **Postman** dan dieksekusi dengan **Newman**. Pengujian mencakup validasi berbagai skenario termasuk request valid, validasi input login (create token) , serta pengambilan booking ID dengan berbagai kombinasi parameter.  
 
 ## 📂 Struktur Koleksi  
 Koleksi **Restful-Booker Automation** memiliki tiga folder utama:  
 
-### 1️⃣ Valid Request  
+### 1️⃣ Valid request  
 - Menguji seluruh flow API dari **create token, get booking, update (PUT & PATCH), hingga delete booking** dengan data valid.  
 
-### 2️⃣ Create Token  
-- Menguji endpoint `/auth` untuk **membuat token**, dengan berbagai kombinasi input (valid & invalid).  
+### 2️⃣ Create roken  
+- Menguji _endpoint_ `/auth` untuk **membuat token** dengan berbagai kombinasi input (valid & invalid).  
 
-### 3️⃣ Get Booking ID  
+### 3️⃣ Get booking id
 - Menguji endpoint `/booking` untuk **mengambil Booking ID** berdasarkan kombinasi parameter seperti `firstname`, `lastname`, `checkin`, dan `checkout`.  
 
 ---
@@ -23,26 +24,26 @@ Koleksi **Restful-Booker Automation** memiliki tiga folder utama:
 ## 🚀 Cara Menjalankan dengan Newman  
 
 ### 1️⃣ Instalasi Newman  
-Pastikan kamu telah menginstal **Newman** di perangkatmu:  
+Install **Newman** di perangkat:  
 ```sh
 npm install -g newman
 ```
 
 ### 2️⃣ Menjalankan Koleksi  
 
-#### 🔹 Jalankan Semua Test  
+#### 🔹 Jalankan Folder "Valid request"  
 ```sh
-newman run Restful-booker-collection.json -e restful-booker-env.json
+newman run Restful-booker-collection.json --folder "Valid request" -e restful-booker-env.json -d restful-booker-data.csv
 ```
 
-#### 🔹 Jalankan Hanya Folder "Create Token"  
+#### 🔹 Jalankan Folder "Create token"  
 ```sh
 newman run Restful-booker-collection.json --folder "Create token" -e restful-booker-env.json -d login-validation-data.csv
 ```
 
-#### 🔹 Jalankan dengan Laporan HTML  
+#### 🔹 Jalankan Folder "Get booking id"  
 ```sh
-newman run Restful-booker-collection.json -e restful-booker-env.json -r html --reporter-html-export report.html
+newman run Restful-booker-collection.json --folder "Get booking id" -e restful-booker-env.json -d get-booking-id-validation-data.csv
 ```
 
 ---
