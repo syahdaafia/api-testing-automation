@@ -27,10 +27,10 @@ Proyek ini memiliki tiga folder utama:
 ## 🚀 Cara Menjalankan Pengujian API  
 
 ### 1️⃣ Persiapan  
-Pastikan kamu telah menginstal **Java 8+** dan **Maven** di sistem kamu.
+Install **Java 8+** dan **Maven** di sistem.
 
 ### 2️⃣ Clone Repositori  
-Clone repositori ini ke sistem lokal kamu:
+Clone repositori ke sistem lokal:
 ```sh
 git clone https://github.com/username/restful-booker-rest-assured.git
 cd restful-booker-rest-assured
