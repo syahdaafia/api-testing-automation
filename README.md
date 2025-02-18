@@ -1,5 +1,5 @@
-# restful-booker-api-testing
-_Repository ini berisi pengujian API untuk **Restful Booker API** menggunakan **Postman** dan **Rest Assured**._
+# api-testing-automation
+_Repository ini berisi pengujian API secara otomatis untuk **Restful Booker API** menggunakan **Postman** dan **Rest Assured**._
 
 ## 🏨 Restful Booker API Testing
 
