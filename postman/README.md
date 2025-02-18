@@ -1,4 +1,4 @@
-# restful-booker-api-testing
+# restful-booker-postman
 _Collection_ Postman untuk pengujian API Restful-Booker dengan Newman
 link API contract: https://restful-booker.herokuapp.com/apidoc/index.html 
 
