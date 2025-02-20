@@ -1,9 +1,8 @@
-# restful-booker-rest-assured
-Proyek API Testing untuk **Restful Booker API** menggunakan **Rest Assured** dan **TestNG**.
+# 🏨 Restful Booker API Testing - Pytest  
 
-Link API contract: [Restful Booker API Docs](https://restful-booker.herokuapp.com/apidoc/index.html)
+Repositori ini berisi **pengujian otomatisasi API** untuk **Restful Booker API** menggunakan **Rest Assured** dan **TestNG**.
 
-## 🏨 Restful Booker API Testing  
+🔗 **Link API Contract:** [Restful Booker API Docs](https://restful-booker.herokuapp.com/apidoc/index.html)  
 
 ### 📌 Deskripsi  
 Repositori ini berisi rangkaian pengujian API untuk **Restful Booker** menggunakan **Rest Assured** dan **TestNG**. Pengujian ini meliputi pembuatan token, pembuatan booking, pembaruan booking, pembaruan parsial booking, serta penghapusan booking. Tes dilakukan pada berbagai skenario validasi untuk memastikan fungsionalitas API berjalan dengan baik.
