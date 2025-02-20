@@ -16,30 +16,16 @@ Semua pengujian dilakukan dengan validasi respons untuk memastikan API berfungsi
 
 ---
 
-## 📂 **Struktur Proyek**  
-
-```
 restful-booker-pytest/
-│── tests/
-│   ├── test_create_auth.py       # Tes pembuatan token autentikasi
-│   ├── test_create_booking.py    # Tes pembuatan booking
-│   ├── test_get_booking_id.py    # Tes mendapatkan booking berdasarkan ID
-│   ├── test_get_by_param.py      # Tes mendapatkan booking berdasarkan parameter
-│   ├── test_update_booking.py    # Tes pembaruan booking (PUT)
-│   ├── test_update_partial.py    # Tes pembaruan sebagian booking (PATCH)
-│   ├── test_delete_booking.py    # Tes penghapusan booking
-│── data/
-│   ├── test_data.csv             # Data uji dalam format CSV
-│── pytest.ini                    # Konfigurasi Pytest
-│── requirements.txt              # Daftar dependensi proyek
-│── README.md                     # Dokumentasi proyek ini
-```
-
-### **📁 Folder Utama:**  
-🔹 **tests/** → Berisi semua pengujian API.  
-🔹 **data/** → Menyimpan file CSV untuk pengujian berbasis data.  
-🔹 **pytest.ini** → Konfigurasi Pytest untuk menyesuaikan pengaturan otomatis.  
-
+│── test_create_auth.py         # Tes pembuatan token autentikasi
+│── test_create_booking.py      # Tes pembuatan booking
+│── test_get_booking_id.py      # Tes mendapatkan booking berdasarkan ID
+│── test_get_by_param.py        # Tes mendapatkan booking berdasarkan parameter
+│── test_update_booking.py      # Tes pembaruan booking (PUT)
+│── test_update_partial.py      # Tes pembaruan sebagian booking (PATCH)
+│── test_delete_booking.py      # Tes penghapusan booking
+│── conftest.py                 # Konfigurasi Pytest untuk fixture
+│── pytest.ini                  # Konfigurasi Pytest
 ---
 
 ## 🚀 **Cara Menjalankan Pengujian**  
