@@ -1,4 +1,4 @@
-# 🏨 Restful Booker API Testing - Pytest  
+# 🏨 Restful Booker API Testing - Rest Assured  
 
 Repositori ini berisi **pengujian otomatisasi API** untuk **Restful Booker API** menggunakan **Rest Assured** dan **TestNG**.
 
