@@ -4,7 +4,7 @@ Repositori ini berisi **pengujian otomatisasi API** untuk **Restful Booker API**
 
 🔗 **Link API Contract:** [Restful Booker API Docs](https://restful-booker.herokuapp.com/apidoc/index.html)  
 
-### 📌 Deskripsi  
+## 📌 **Deskripsi Proyek**  
 Repositori ini berisi rangkaian pengujian API untuk **Restful Booker** menggunakan **Rest Assured** dan **TestNG**. Pengujian ini meliputi pembuatan token, pembuatan booking, pembaruan booking, pembaruan parsial booking, serta penghapusan booking. Tes dilakukan pada berbagai skenario validasi untuk memastikan fungsionalitas API berjalan dengan baik.
 
 ## 📂 Struktur Proyek  
