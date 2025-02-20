@@ -13,9 +13,11 @@ Proyek ini bertujuan untuk menguji fungsionalitas **Restful Booker API** secara 
 ✅ Menghapus _booking_  
 
 Semua pengujian dilakukan dengan validasi respons untuk memastikan API berfungsi sesuai harapan.  
-
 ---
 
+## 📂 **Struktur Proyek**  
+
+```
 restful-booker-pytest/
 │── test_create_auth.py         # Tes pembuatan token autentikasi
 │── test_create_booking.py      # Tes pembuatan booking
@@ -26,6 +28,9 @@ restful-booker-pytest/
 │── test_delete_booking.py      # Tes penghapusan booking
 │── conftest.py                 # Konfigurasi Pytest untuk fixture
 │── pytest.ini                  # Konfigurasi Pytest
+│── README.md                   # Dokumentasi proyek ini
+```
+
 ---
 
 ## 🚀 **Cara Menjalankan Pengujian**  
