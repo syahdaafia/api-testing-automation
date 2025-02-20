@@ -1,41 +1,51 @@
-# api-testing-automation
-_Repository ini berisi pengujian API secara otomatis untuk **Restful Booker API** menggunakan **Postman** dan **Rest Assured**._
+# 🏨 API Testing Automation  
 
-## 🏨 Restful Booker API Testing
+_Repository ini berisi pengujian API otomatis untuk **Restful Booker API** menggunakan **Postman**, **Rest Assured**, dan **Pytest**._  
 
-### 📌 Deskripsi  
-Proyek ini berisi pengujian API untuk **Restful Booker** yang dilakukan dengan dua alat utama:
-1. **Postman** untuk pengujian manual dan otomatis menggunakan **Newman**.
-2. **Rest Assured** untuk pengujian otomatis dengan menggunakan **Java** dan **TestNG**.
+## 📌 **Deskripsi**  
+Proyek ini menguji **Restful Booker API** dengan tiga alat utama:  
+1. **Postman** → Untuk pengujian manual dan otomatis menggunakan **Newman**.  
+2. **Rest Assured** → Untuk pengujian otomatis menggunakan **Java** dan **TestNG**.  
+3. **Pytest** → Untuk pengujian API menggunakan **Python** dan **Requests**.  
 
-Pengujian meliputi berbagai skenario API, seperti autentikasi token, pembuatan booking, pembaruan booking, pengambilan booking ID, dan penghapusan booking.
+Pengujian mencakup:  
+✅ Autentikasi token  
+✅ Pembuatan booking  
+✅ Pembaruan booking (_full & partial update_)  
+✅ Pengambilan booking berdasarkan ID dan parameter  
+✅ Penghapusan booking  
 
 ---
 
-## 📂 Struktur Repository  
-Repository ini terdiri dari dua bagian utama:
+## 📂 **Struktur Repository**  
+Repository ini terdiri dari tiga bagian utama:  
 
 ### 1️⃣ **Postman Testing**  
-Pengujian API menggunakan **Postman** untuk melakukan berbagai skenario pengujian secara manual dan otomatis dengan **Newman**.
+Berisi pengujian API menggunakan **Postman** dan otomatisasi dengan **Newman**.  
 
 ### 2️⃣ **Rest Assured Testing**  
-Pengujian API otomatis menggunakan **Rest Assured** dengan **TestNG** untuk menguji berbagai API endpoint Restful Booker.
+Berisi pengujian API otomatis menggunakan **Java**, **Rest Assured**, dan **TestNG**.  
+
+### 3️⃣ **Pytest API Testing**  
+Berisi pengujian API otomatis menggunakan **Python**, **Requests**, dan **Pytest**.  
 
 ---
 
-## 🚀 Cara Menjalankan Pengujian
-
-### 🧑‍💻 **Postman**  
-Untuk menjalankan pengujian Postman secara otomatis, ikuti instruksi di README folder **Postman Testing**.
-
-### 🧑‍💻 **Rest Assured**  
-Untuk menjalankan pengujian Rest Assured, ikuti instruksi di README folder **Rest Assured Testing**.
+## 🚀 **Cara Menjalankan Pengujian**  
+Silakan baca README di masing-masing folder untuk petunjuk menjalankan pengujian.  
 
 ---
 
-## 📌 Teknologi yang Digunakan
-- **Postman** → Pengujian API manual dan otomatis.
-- **Newman** → Menjalankan pengujian Postman secara otomatis.
-- **Rest Assured** → Pengujian API otomatis menggunakan Java.
-- **TestNG** → Framework pengujian otomatis.
-- **Maven** → Manajemen dependensi dan eksekusi pengujian untuk Rest Assured.
+## 📌 **Teknologi yang Digunakan**  
+
+| **Tool**      | **Kegunaan** |
+|--------------|------------|
+| **Postman**  | Pengujian API manual dan otomatis |
+| **Newman**   | Menjalankan pengujian Postman secara otomatis |
+| **Rest Assured** | Pengujian API otomatis menggunakan Java |
+| **TestNG**   | Framework pengujian otomatis untuk Java |
+| **Maven**    | Manajemen dependensi dan eksekusi pengujian untuk Rest Assured |
+| **Pytest**   | Framework pengujian otomatis untuk Python |
+| **Requests** | Library Python untuk melakukan HTTP request |
+
+---
