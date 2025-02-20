@@ -28,7 +28,6 @@ restful-booker-pytest/
 │── test_delete_booking.py      # Tes penghapusan booking
 │── conftest.py                 # Konfigurasi Pytest untuk fixture
 │── pytest.ini                  # Konfigurasi Pytest
-│── README.md                   # Dokumentasi proyek ini
 ```
 
 ---
