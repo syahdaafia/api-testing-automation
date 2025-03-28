@@ -25,10 +25,10 @@ jobs:
         run: npm install -g newman
 
       - name: Run API Tests - Valid Request
-        run: newman run Restful-booker-collection.json --folder "Valid request" -e restful-booker-env.json -d restful-booker-data.csv
+        run: newman run postman/Restful-booker-collection.json --folder "Valid request" -e postman/restful-booker-env.json -d postman/restful-booker-data.csv
 
       - name: Run API Tests - Create Token
-        run: newman run Restful-booker-collection.json --folder "Create token" -e restful-booker-env.json -d login-validation-data.csv
+        run: newman run postman/Restful-booker-collection.json --folder "Create token" -e postman/restful-booker-env.json -d postman/login-validation-data.csv
 
       - name: Run API Tests - Get Booking ID
-        run: newman run Restful-booker-collection.json --folder "Get booking id" -e restful-booker-env.json -d get-booking-id-validation-data.csv
+        run: newman run postman/Restful-booker-collection.json --folder "Get booking id" -e postman/restful-booker-env.json -d postman/get-booking-id-validation-data.csv
